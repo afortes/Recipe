@@ -1,0 +1,118 @@
+@import url('fonts.css');
+
+
+.section-logo{
+	background: white;
+}
+
+.navbar{
+	background-color: #861f82;
+	border-bottom: 0px;
+
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+	font-size: 14px;
+	font-family: Oxygen-Bold;
+	color: white;
+
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a:hover{
+	color: #ffbe08;
+
+}
+
+.tiposAlimentos{
+	margin-top: 190px;
+	background-color: #ebebeb;
+	height: 60px;
+
+}
+
+.navegacionAlimentos{
+	border:1px solid #ccc;
+	border-width:1px 0;
+	list-style:none;
+	padding-left: 0px;
+	margin-left: 10px;
+
+	
+	text-align:left;
+}
+.navegacionAlimentos > li{
+	display:inline;
+	margin-right: 15px;
+ }
+.navegacionAlimentos > a{ display:inline-block;  padding:15px;}
+
+.search{
+	float: right;
+	margin-right: 180px;
+	margin-top: 7px;
+}
+
+
+.wrap{
+	height: auto;
+	font-family: Oxygen-Bold;
+	
+}
+h1{
+	font-family: Oxygen-Regular;
+	font-size: 51px;
+}
+h4{
+	font-family: Oxygen-Bold;
+
+}
+.subtMethod{
+	font-family: Oxygen-Bold;
+	font-size: 40px;
+}
+
+.ingredientes{
+	background-color: #dddddd;
+	margin-left: 15px;
+}
+.lista{	list-style-image: url(../img/li.png);}
+.lista >li{margin-bottom: 7px;}
+
+.socialMedia{
+	float: right;
+	margin-top: 15px;
+}
+.socialMedia >img{
+	margin-right: 5px;
+}
+
+.preparacion{
+	margin-bottom: 50px;
+	font-family: Oxygen-Regular;
+	font-size: 14px;
+}
+.preparacion >p{margin-bottom: 20px;}
+
+footer{
+	color:black;
+	height: 90px;
+	border-top: solid;
+	border-color: #861f82;
+	font-size: 14px;
+	font-family: Oxygen-Bold;
+
+
+}
+
+.navInferior >li{
+	margin-right: 45px;
+
+}
+.navInferior >li > a{
+	color:black;
+}
+}
+.navInferior >li > a:hover{
+	background-color: red;
+	color:none;
+}
