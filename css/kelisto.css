@@ -100,27 +100,21 @@ footer{
 }
 
 
+/*Responsive*/
 
-
-
-
-.rojo{
-	background-color: red;
-	width: 300px;
-}
-.azul{
-	background-color: blue;
-	width: 300px;
-}
-.negro{
-	background-color: black;
-	width: 300px;
-}
-.amarillo{
-	background-color: yellow;
-	width: 300px;
-
+@media (max-width: 1000px){
+	#busqueda{
+		display: none;
+	}
 }
 
+	
+@media (max-width: 800px){
+	.tiposAlimentos{
+		display: none;	
+	}
 
-
+	#wrapper{
+		margin-top: 190px;
+	}
+}
