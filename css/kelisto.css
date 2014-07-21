@@ -7,7 +7,6 @@
 
 .navbar{
 	background-color: #861f82;
-	border-bottom: 0px;
 
 }
 
@@ -30,21 +29,6 @@
 
 }
 
-.navegacionAlimentos{
-	border:1px solid #ccc;
-	border-width:1px 0;
-	list-style:none;
-	padding-left: 0px;
-	margin-left: 10px;
-
-	
-	text-align:left;
-}
-.navegacionAlimentos > li{
-	display:inline;
-	margin-right: 15px;
- }
-.navegacionAlimentos > a{ display:inline-block;  padding:15px;}
 
 .search{
 	float: right;
@@ -82,7 +66,7 @@ h4{
 	float: right;
 	margin-top: 15px;
 }
-.socialMedia >img{
+.socialMedia >a{
 	margin-right: 5px;
 }
 
@@ -100,8 +84,6 @@ footer{
 	border-color: #861f82;
 	font-size: 14px;
 	font-family: Oxygen-Bold;
-
-
 }
 
 .navInferior >li{
@@ -111,8 +93,34 @@ footer{
 .navInferior >li > a{
 	color:black;
 }
-}
+
 .navInferior >li > a:hover{
-	background-color: red;
-	color:none;
+	background-color: white;
+	
 }
+
+
+
+
+
+
+.rojo{
+	background-color: red;
+	width: 300px;
+}
+.azul{
+	background-color: blue;
+	width: 300px;
+}
+.negro{
+	background-color: black;
+	width: 300px;
+}
+.amarillo{
+	background-color: yellow;
+	width: 300px;
+
+}
+
+
+
